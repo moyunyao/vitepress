@@ -17,9 +17,21 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' },
       {
         text: '政治', items: [
-          { text: '马克思', link: '/政治/马克思' },
-          { text: '毛中特', link: '/' },
-          { text: '习思想', link: '/' },
+          { text: '马克思', link: '/docs/政治/马克思' },
+          { text: '毛中特', link: '/docs/政治/毛中特' },
+          { text: '习思想', link: '/docs/政治/习思想' },
+        ]
+      },
+      {
+        text: '数学', items: [
+          { text: '基本知识', link: '/docs/数学/第一讲-基本知识' },
+          { text: '极限', link: '/docs/数学/第二讲-极限' },
+        ]
+      },
+      {
+        text: '英语', items: [
+          { text: '语法', link: '/docs/英语/语法' },
+          { text: '单词', link: '/docs/英语/单词' },
         ]
       },
     ],
