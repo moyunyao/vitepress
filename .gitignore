@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Dist files
+dist/
+lib/
+/docs/.vitepress/cache
+/docs/.vitepress/dist
+
+# Test coverage files
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+*.log
+
+# IDE setting files
+.idea
+.vscode
